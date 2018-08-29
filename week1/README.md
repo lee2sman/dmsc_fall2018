@@ -62,6 +62,8 @@ function preload(){
   }  
 ```
 
+[Example code - preloading an image](http://alpha.editor.p5js.org/2sman/sketches/HytoGD7vm)
+
 ### Input
 
 ```
@@ -140,9 +142,9 @@ Code examples in p5js can be found [here](../basicExamples.md)
 * Review syllabus
 * Get a notebook for class
 * Read Zach Lieberman's [Lessons For Students](https://medium.com/@zachlieberman/lessons-for-students-cf1acf200ee), 8 minutes
-* Write your first [discovery and research report](../assigmnents.md) on a creative programming tool or environment that is used by artists to make experimental technology based work. Explain what the tool is, who created it and what it does, try to include an example of a project (and link to it) that has been made with it. If you are stuck for ideas on creative coding tools see the list at the end of the resources section of the syllabus. For the first assignment, please email me your response. Next week we will learn how to use github and you will post this to your github page.
+* Write your first [discovery and research report](../assignments.md) on a creative programming tool or environment that is used by artists to make experimental technology based work. Explain what the tool is, who created it and what it does, try to include an example of a project (and link to it) that has been made with it. If you are stuck for ideas on creative coding tools see the list at the end of the resources section of the syllabus. For the first assignment, please email me your response. Next week we will learn how to use github and you will post this to your github page.
 * Port one of your old Processing sketches to p5js if you have one, choose a simple animation without objects or libraries....something basic.
-* Start your Assignment 1 aka *Tamagotchi project*
+* Start your [Assignment 1](../assignments.md) aka *Tamagotchi project*
   * sketch in notebook. what's it look like? What are all the different states? how will you interact with it? Write about each state.
   * Write out pseudo code for the flow of the program. What will happen in each state? They may have their own flow/loops.
   * Start coding. Get your little being/animal/person/anthropomorphic object onto the screen. Animate its rest state in its own function you call rest. Call it from draw.

@@ -12,7 +12,23 @@
     * GIF vs JPEG vs PNG
     * Use at least one png image file (why?)
 
-[Link to Basic p5js example programs](../basicExamples.md).
+# Loading image with a callback
+
+### Callback
+
+ A callback is a function that is to be executed after another function has finished executing
+
+```
+function setup() {
+  // We use a callback to display the image after loading
+  loadImage('myImg.jpg', function(img) {
+    image(img, 0, 0);
+  });
+}
+```
+
+#### PS
+* [Link to Basic p5js example programs](../basicExamples.md).
 
 # Running a local server
 
@@ -39,6 +55,8 @@ Additional resources on running a local server at this p5js [tutorial](https://g
 # Time and Randomness
   * working with time in P5JS and Javascript
     * [basic timer example code](https://editor.p5js.org/2sman/sketches/ryoksa0pZ)
+    * [Wait random time example](https://editor.p5js.org/2sman/sketches/rk4pBj3v7)
+    * [Change states randomly example](https://editor.p5js.org/2sman/sketches/rk5gwonP7)
   * states
 
 # Classes in Javascript

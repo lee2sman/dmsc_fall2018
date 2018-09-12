@@ -151,8 +151,9 @@ class Person {
 		this.message = "Hi "+this.name;
 	}
 
-drawName(){
-	text(this.message,this.x,this.y);
+  drawName(){
+	   text(this.message,this.x,this.y);
+   }
 }
 
 function setup(){

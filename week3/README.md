@@ -81,6 +81,8 @@ In a programming language, a *class* is a defined code template that is used to 
 }
 ```
 
+[EXAMPLE CODE](https://editor.p5js.org/2sman/sketches/rkYZzxIdQ)
+
 Here is an entire example that shows how to declare and instantiate an object in your program.
 ```
 var bubbles = [];
@@ -141,6 +143,8 @@ There are many ways to create classes and objects in Javascript. Below is a good
 - it creates an object *instance*
 
 ## An Example Class
+
+[Example Code here](https://editor.p5js.org/2sman/sketches/SJ5DGeIOQ)
 
 ```
 let wolfgang, clara;

@@ -143,6 +143,8 @@ There are many ways to create classes and objects in Javascript. Below is a good
 ## An Example Class
 
 ```
+let wolfgang, clara;
+
 class Person {
 	constructor(name,x,y) {
 		this.name = name; //takes the passed name and sets the local name variable

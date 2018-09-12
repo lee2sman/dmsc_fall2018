@@ -159,6 +159,7 @@ class Person {
 }
 
 function setup(){
+  createCanvas(500,500);
 	wolfgang = new Person("Wolfgang",100,200);
 	clara = new Person("Clara",200,350);
 }

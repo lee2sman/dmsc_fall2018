@@ -59,9 +59,6 @@ Additional resources on running a local server at this p5js [tutorial](https://g
     * [Change states randomly example](https://editor.p5js.org/2sman/sketches/rk5gwonP7)
   * states
 
-# Classes in Javascript
-  [Class notes](classes-and-objects-es6.md)
-
 # Homework
 
 * Upload your week 1 Discovery and Research Post to moodle.

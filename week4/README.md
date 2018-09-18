@@ -20,16 +20,16 @@ We can start this by creating a Walker class, creating a constructor to assign i
 We will declare our new Walker by declaring it globally and then assigning it in our setup.
 
 ```
-Walker w;
+let walker;
 
 function setup(){
   createCanvas(200,200);
-  w = new Walker();
+  walker = new Walker();
 }
 
 function draw(){
-  w.step();
-  w.display();
+  walker.step();
+  walker.display();
 }  
 ```
 

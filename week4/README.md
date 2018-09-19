@@ -66,7 +66,9 @@ In p5js we have several ways to generate random numbers. We've covered random an
 
 The noise() function gives us Perlin noise values. Perlin noise gives us smoothed out random numbers. It does this by picking numbers related to the previous selected values.
 
-noise() will output a value between 0 and 1. To get a broader range of output, we can use the map() function to specify a new minimum and maximum. noise() takes an argument of time to output a random perlin noise value. The larger the time input, the higher the variability of perlin noise random output values.
+noise() will output a value between 0 and 1. To get a broader range of output, we can use the map() function to specify a new minimum and maximum. [Here](https://editor.p5js.org/2sman/sketches/HySRfXkFQ) is an example of using the map function very simply. Remember that with map you specify your variable, its current minimum and max, and what you want the min and max to be.
+
+noise() takes an argument of time to output a random perlin noise value. The larger the time input, the higher the variability of perlin noise random output values.
 
 example
 

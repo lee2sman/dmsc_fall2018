@@ -56,10 +56,10 @@ alt="Senstor">
 ![Typewriter](assets/typewriter.jpg)  
 
 * A more recent contribution is [Delicate Boundaries](http://csugrue.com/delicateboundaries/) by [Chris Sugrue](http://chrissugrue.com/)
-![Delicate](../../images/delicate.jpg)  
+![Delicate](assets/delicate.jpg)  
 
-* And the software based creatures curated by [Golan Levin](http://www.flong.com/) in his [Single Cell](http://www.singlecell.org/singlecell.html) and [Double Cell](http://www.singlecell.org/) collections if Processing works.  
-![Obzok](../../images/obzok.jpg)   
+* And the software based creatures curated by [Golan Levin](http://www.flong.com/) in his [Single Cell](http://www.singlecell.org/singlecell.html) and [Double Cell](http://www.singlecell.org/) collections of Processing works.  
+![Obzok](assets/golan.jpg)   
 
 # Other ecosystems
 
@@ -75,9 +75,7 @@ Ian Cheng's Bad Corgi
 
 <a href="https://www.youtube-nocookie.com/embed/ByJrszDVxmA?rel=0"><img src="assets/bad-corgi.png"></a>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ByJrszDVxmA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-Emissary In The Squat of the Gods, one of a trio of works that were presented together at PS1 in 2017.
+Another, <a href="https://www.youtube-nocookie.com/embed/ByJrszDVxmA?rel=0">Emissary In The Squat of the Gods</a>, one of a trio of works that were presented together at PS1 in 2017.
 
 <a href="https://www.youtube.com/watch?v=GaMj1Vo1EPk"><img src="assets/gods.png"></a>
 

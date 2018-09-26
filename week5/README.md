@@ -256,7 +256,7 @@ void update() {
 }
 ```
 
-We also need the object constructor, which is invoked ```Mover m = new Mover();```
+We also need the object constructor, which is invoked ```let m = new Mover();```
 
 To start, we'll give random location and velocity to each Mover instance
 

@@ -216,6 +216,8 @@ class Ball {
 
 [Bouncing ball with vectors and Ball class](https://editor.p5js.org/2sman/sketches/SyjIkrDtm) example
 
+[Array of balls with Ball class and vectors](https://editor.p5js.org/2sman/sketches/S1gpTHdKX)
+
 ### Programming our Mover class with Vectors
 
 An object has a location where it is at that given moment as well as a velocity which is instructions for how it should move from one moment to the next. Velocity is added to location.

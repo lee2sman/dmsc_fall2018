@@ -61,6 +61,8 @@ alt="Senstor">
 * And the software based creatures curated by [Golan Levin](http://www.flong.com/) in his [Single Cell](http://www.singlecell.org/singlecell.html) and [Double Cell](http://www.singlecell.org/) collections of Processing works.  
 ![Obzok](assets/golan.jpg)   
 
+We could also consider the non-art realm, such as General Dynamics' [Big Dog](https://www.youtube.com/watch?v=cNZPRsrwumQ).
+
 # Other ecosystems
 
 Connected Worlds is a work at New York Hall of Science, by Design I/O with Columbia's Center for International Earth Science Information Network, Yale's Cognitive Science Department, NYU's Games for Learning Institute, artist [Zach Gage](http://www.stfj.net/), and Big Show Construction Management

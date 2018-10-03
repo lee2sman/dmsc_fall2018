@@ -19,6 +19,12 @@ Your code must have at least two types of organisms.
 * Documentation: To explain your project you must make a markdown page or a pdf document that describes your project. This page should include. A title, your name, a description of what happens in your program, a short paragraph of the challenges/surprises your faced in the process, a list of the different species in your system, and at least 3 screen shots showing the evolution of your system. Add captions to these screen shots. This document should also have a link to a live version of this project online and a bibliography listing any references you may have used in the making of this project.
 * If you are using github for submissions, add this markdown file as a README.md to your project repository and add to your own course repository online. When submitting via Moodle, link to your project online.
 
+Consider implementing:
+* forces
+* motion - using gaussian distribution, perlin noise, etc
+* drag, friction
+* attraction/repulsion
+
 ![slime mold](assets/slime_mold.jpg)
 ![ecoli1](assets/ecoli.jpg)
 ![ecoli2](assets/ecoli2.jpg)

@@ -5,6 +5,8 @@ Our midterm project is to create a virtual ecosystem inhabited by at least two k
 
 Your code must have at least two types of organisms.
 
+Part 1 due October 16. Part 2 due October 28!
+
 ### Deliverables:
 
 #### Part 1
@@ -24,6 +26,9 @@ Consider implementing:
 * motion - using gaussian distribution, perlin noise, etc
 * drag, friction
 * attraction/repulsion
+
+# Due
+Week 8 - October 23
 
 ![slime mold](assets/slime_mold.jpg)
 ![ecoli1](assets/ecoli.jpg)

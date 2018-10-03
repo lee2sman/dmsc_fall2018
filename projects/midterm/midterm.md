@@ -1,7 +1,7 @@
 # Midterm
 
 ### Artificial Life and Simulation
-Our midterm project is to create a virtual ecosystem inhabited by at least two kinds of organisms. The organisms should be visually different and have different behaviors such as ways of moving. Example behaviors include living, dying, sleeping, bleeding, splitting, combining, reproducing, eating (each other or food). They may also interact or have other kinds of behaviors. The ecosystem can include non-living components, or have multiple areas with different forces (such as water, air, etc). You are able to select a specific real ecosystem to model, a species, or a site from film/literature for example. Examples: Ecoli, a particular flock of birds, pigeons, Walden pond, slime mold.
+Our midterm project is to create a virtual ecosystem inhabited by at least two kinds of organisms. The organisms should be visually different and have different behaviors such as ways of moving. Example behaviors include living, dying, sleeping, bleeding, splitting, combining, reproducing, eating (each other or food). They may also interact or have other kinds of behaviors. The ecosystem can include non-living components, or have multiple areas with different forces (such as water, air, etc). You are able to select a specific real ecosystem to model, a species, or a site from film/literature for example. Examples: Ecoli, a particular flock of birds, pigeons, Walden pond, slime mold, Survival Research Laboratories...
 
 Your code must have at least two types of organisms.
 

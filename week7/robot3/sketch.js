@@ -2,17 +2,24 @@ var jeff;
 var b1 = [];
 var index = 0;
 var obstacle = [];
+var robotimg;
+
+function preload() {
+	robotimg = loadImage("robot48.png");
+}
 
 function setup() {
 	createCanvas(600, 400);
   jeff = new Robot(width/2, height/2);
-  for (var i = 0; i < 5; i++) {
-    b1[i]=new Box(50, 20+i*30);
+  for (var i = 0; i < 25; i++) {
+    b1[i]=new Box(random(width-200), random(height));
   }
   for(var i = 0;i < 10; i++){
     obstacle[i] = new Obstacle(random(width), random(height));
   }
   rectMode(CENTER);
+	imageMode(CENTER);
+	noStroke();
 }
 
 function draw() {
@@ -56,8 +63,9 @@ function Robot(x,y){
     this.w=20;
     this.h=33;
     this.display=function(){
-      fill(50,67,225);
-      rect(this.position.x,this.position.y,this.w,this.h);
+      //fill(50,67,225);
+      //rect(this.position.x,this.position.y,this.w,this.h);
+			image(robotimg, this.position.x, this.position.y);
     }
     this.move = function(bx,by){
       var p1 = createVector(bx,by);
@@ -71,7 +79,7 @@ function Robot(x,y){
     this.avoid = function(ii){
       if(this.position.dist(obstacle[ii].position)<50){
           var b = p5.Vector.sub(obstacle[ii].position,this.position);
-          b.limit(3);
+          b.limit(4);
           //b.y-=1;
           this.position.sub(b);
       }
@@ -87,13 +95,13 @@ function Box(x,y){
     }
     this.display = function(){
       fill(255,0,0);
-      rect(this.position.x,this.position.y,5,5)
+      rect(this.position.x,this.position.y,10, 10)
     }
 }
 
 function Obstacle(x,y){
     this.position = createVector(x,y);
-		this.direction = createVector(random(3), random(3));
+		this.direction = createVector(random(-2, 2), random(-2, 2));
     this.w=30;
     this.h=30;
     this.display = function(){

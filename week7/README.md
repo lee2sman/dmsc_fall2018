@@ -6,13 +6,26 @@
 
 #### Notes on Arrays
 
-You are already familiar with ```array.length````. There are other useful array methods as well.
+You are already familiar with ```array.length```. There are other useful array methods as well.
 
 ```array.push()```
+
+```
+let array = [22, 10, 8, 4, 9];
+array.push(300);
+  
+console.log("last element in the array: " + array[array.length-1]);
+```
 
 This adds a new element to the end of the array.
 
 ```indexOf(element)```
+
+example
+
+```
+print(array.indexOf(8)); //returns 2 because it's the second index in the array set above
+```
 
 Returns the index of given element, or returns -1 if its not found.
 

@@ -55,6 +55,12 @@ for (var i = particles.length-1; i >= 0; i--) { //go backwards
 
 See the 3 robot examples
 
+[Example Robot1](https://editor.p5js.org/2sman/sketches/rkUieacqm)
+
+[Example Robot2](https://editor.p5js.org/2sman/sketches/rJIeWT95Q)
+
+[Example Robot3](https://editor.p5js.org/2sman/sketches/r1R4Zpc5X)
+
 # Homework
 
 * Review Chapter 4 in Nature of Code on Particle Systems.

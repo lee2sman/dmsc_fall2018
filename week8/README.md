@@ -18,7 +18,7 @@ Based on our class discussion last week, I will have the next phase of our cours
 
 We'll publish an ezine (and maybe a riso?) with articles on emergence, a-life and other related or unrelated concepts.
 
-# Concepts
+#### Concepts to study
 
 * Turing complete
 * Procedural Generation
@@ -76,9 +76,9 @@ In the example code there is a for each statement.
 
 <iframe src="https://editor.p5js.org/embed/B1U0Y-XoQ"></iframe>
 
-# Particle System Class
+# An array of particle systems
 
-## A system of systems
+[code](https://editor.p5js.org/2sman/sketches/By7SNe4j7)
 
 # Inheritance
 

@@ -231,10 +231,7 @@ You can put this URL in your browser to see this data.
 * [List](https://gist.github.com/afeld/4952991) of source data APIs that do not require authorization or credentials
 * [Public APIs](https://github.com/toddmotto/public-apis) - a large list
 
-Dan Shiffman [tutorial video](https://www.youtube.com/watch?v=bjULmG8fqc8&list=PLRqwX-V7Uu6b36TzJidYfIYwTFEq3K5qH) on Intro to Node - Websockets and p5.js
-
-
-JSON
+##### JSON
 
 [W3Schools intro to JSON](https://www.w3schools.com/js/js_json_intro.asp)
 
@@ -245,14 +242,9 @@ JSON
 
 * Read [From Paint To Pixels](https://www.theatlantic.com/entertainment/archive/2015/05/the-rise-of-the-data-artist/392399/): The Rise of the Data Artist
 * Read [Making Art out of Earthquakes](https://www.theatlantic.com/technology/archive/2013/03/making-art-out-of-earthquakes/274345/)
-* Watch Dan Shiffman tutorials on Intro to Node - Websockets and p5.js
-  - 12.1 - [Intro to Node](https://www.youtube.com/watch?v=bjULmG8fqc8&list=PLRqwX-V7Uu6b36TzJidYfIYwTFEq3K5qH&index=1)
-  - 12.2 - [Using Express with Node](https://www.youtube.com/watch?v=2hhEOGXcCvg&list=PLRqwX-V7Uu6b36TzJidYfIYwTFEq3K5qH&index=2)
-  - 12.3 - [Connecting client to server with Socket.io](https://www.youtube.com/watch?v=HZWmrt3Jy10&list=PLRqwX-V7Uu6b36TzJidYfIYwTFEq3K5qH&index=3)
-  - Watch [Intro to NPM](https://www.youtube.com/watch?v=s70-Vsud9Vk&nohtml5=False)
-
-
-
+* Watch Daniel Shiffman videos - [Working With Data Playlist](https://www.youtube.com/watch?v=rJaXOFfwGVw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
+  - There are 7 videos you should watch 10.1 to 10.7!
+  
 ## Assignment
 
 - Explore some web projects that use data in creative and interesting ways. Choose one to research in detail and write about your discoveries. Things to consider:

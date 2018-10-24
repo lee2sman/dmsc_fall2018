@@ -31,7 +31,7 @@ Consider implementing:
 * attraction/repulsion
 
 # Due
-Week 8 - October 23
+UPDATED: DUE SUNDAY October 28
 
 ![slime mold](assets/slime_mold.jpg)
 ![ecoli1](assets/ecoli.jpg)

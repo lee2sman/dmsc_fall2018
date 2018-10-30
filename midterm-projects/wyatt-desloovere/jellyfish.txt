@@ -1,0 +1,16 @@
+Wyatt Desloovere
+
+Jellyfish Environment Project
+To start off my project I built a constructor for a Jellyfish, and then edited a bouncing ball code to make semi-realistic movement for them (the best I can on in 2D) by
+toying with the velocity. 
+
+From there I built an algae class, little specs that slowly float around or occasionally hang completely suspended in the air.
+
+Finally I utilized the basic timer and class changing elements we learned from our first project and applied them. 
+
+I was trying to make them interact -- when a jellyfish would touch an algae it would splice the algae from the algae array and push a new jellyfish in. However the code 
+would become a little confused when I tried to implement them in the objects.
+I also added a shark constructor but I wasn't able to implement it the way I wanted to, so he doesn't appear. He was supposed to quickly sweep the sketch and splice any
+jellyfish he touched before disappearing. 
+
+

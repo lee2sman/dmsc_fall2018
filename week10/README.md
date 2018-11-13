@@ -1,4 +1,5 @@
-# Week 9
+# Week 10
+**Note: No class for Election Day / Week 11**
 
 - Review Midterms
 - Continue studying working with APIs

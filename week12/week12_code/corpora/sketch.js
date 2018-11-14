@@ -3,6 +3,7 @@
 // http://shiffman.net/a2z
 
 let emojis;
+let name = "lee";
 
 function setup() {
   noCanvas();
@@ -11,13 +12,13 @@ function setup() {
   let button = select('#button');
   // Demonstrating anonymous function
   button.mousePressed(function() {
-    let span = createSpan(random(emojis))
+    let para = createP(random(emojis))
     // Demonstrating chaining
-    span.style('font-size','64px').parent('emojis');
+    para.style('font-size','64px').parent('emojis');
   });
 }
 
 function gotEmoji(data) {
-  console.log(data);
+  //console.log(data);
   emojis = data.seaEmoji;
 }

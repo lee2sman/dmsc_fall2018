@@ -48,7 +48,7 @@ These are name-value pairs.
 Construct the URL properly
 
 ```
-api.openweathermap.org/data/2.5/weather?q=London&APPID=001b0f58045147663b1ea518d34d88b4
+api.openweathermap.org/data/2.5/weather?q=London&APPID=YOURAPIKEYHERE
 ```
 
 * Note: replace the APPID with your own ID

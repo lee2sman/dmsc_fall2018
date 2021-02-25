@@ -47,7 +47,13 @@ Having an equal chance of moving any direction may not be the best way to simula
 
 [example code](https://editor.p5js.org/2sman/sketches/SkTQVn0u7) showing a variation for a walker with a 40% chance of moving to the right.
 
+### "Normal distribution" of randomness
+
 Let's consider randomness in the real world. We are familiar with the concept of average, and most likely with bell curves. In such a distribution, most values will tend to cluster in the center, with outlying values decreasing as they move higher or lower, and tapering off at the extreme ends.
+
+This is what as known as a "normal distribution" of randomness. It also has the more unique name "Gaussian distribution," named for the mathematician Carl Gauss.
+
+![bell curve](../images/bell_curve.jpg)
 
 We call the average the **mean**. Standard deviation tells us the amount of variation from the mean. A lower standard deviation means our values are clustered around the mean, and a higher standard deviation tells us we have much more variance of values from the mean. FYI standard deviation is calculated by: for each value in our set, calculate the difference between that value and the mean (average). Then square the result (multiply it by itself). Find the average (mean) of all these results, then take the square root of that mean. This number is the standard deviation.
 
@@ -55,14 +61,17 @@ We call the average the **mean**. Standard deviation tells us the amount of vari
 
 To get more natural results in the form of a bell curve-like set of values, we can use a Gaussian function.
 
-In p5js, we use the randomGaussian() function which returns random numbers with a mean of zero and a standard deviation of one.
+In p5js, we use the ```randomGaussian()``` function which returns random numbers with a mean of zero (the values cluster around zero) and a standard deviation of one.
+
 We can adjust the value to our parameters by multiplying it by the standard deviation and adding the mean.
 
 [example code](https://editor.p5js.org/2sman/sketches/BkrrPhROX)
 
 #### Perlin Noise
 
-In p5js we have several ways to generate random numbers. We've covered random and gaussian. Another option we have is Perlin noise, called with ```noise()``` as a way to get more natural random numbers. IT was created by Ken Perlin in the 80s for the movie Tron to generate landscape textures.
+In p5js we have several ways to generate random numbers. We've covered random and gaussian. Another option we have is Perlin noise, called with ```noise()``` as a way to get more natural random numbers. It was created by Ken Perlin in the 80s for the movie Tron to generate landscape textures.
+
+[Tron terrain example](https://youtu.be/8ruRruqKf5M?t=452) - on YouTube
 
 The noise() function gives us Perlin noise values. Perlin noise gives us smoothed out random numbers. It does this by picking numbers related to the previous selected values.
 
@@ -73,18 +82,19 @@ noise() takes an argument of time to output a random perlin noise value. The lar
 example
 
 ```
-var xoff = 0.0;
+var xoffset = 0;
 
 function draw() {
   background(204);
-  xoff = xoff + 0.01;
-  var n = noise(xoff) * width;
+  xoffset = xoffset + 0.01;
+  var n = noise(xoffset) * width;
   line(n, 0, n, height);
 }
 ```
 
-Try changing how fast time increments.
+[code in web editor](https://editor.p5js.org/2sman/sketches/-jGaStopt)
 
+Try changing how fast time increments.
 
 
 In this example, a variation on our Walker class, we use Perlin noise to change our x, y coordinates of our walker.  
@@ -121,30 +131,21 @@ The Coding Train [video](https://www.youtube.com/watch?v=Qf4dIN99e2w) about Perl
 
 # Homework
 
-* Watch The Coding Train [video](https://www.youtube.com/watch?v=Qf4dIN99e2w) about Perlin noise
+## Watch/read
+- Watch The Coding Train [video](https://www.youtube.com/watch?v=Qf4dIN99e2w) about Perlin noise
+- Read Chapter 1 on Vectors from The Nature of Code.
+**Try out exercises 1.1 and 1.2 [from the book](https://natureofcode.com/book/chapter-1-vectors/) in p5js (you can do 1.3 if you are excited and familiar with 3D), 1.4 and 1.5.*
 
-Our homework this week will largely be around Vectors.
+## Devlog homework
 
-* Read Chapter 1 on Vectors from The Nature of Code.
+* Find 2 or 3 examples of programs that involve artificial intelligence and/or artificial life and research how these elements are handled in the programs. Examples can be things like life simulations, flocking algorithms, robot simulations, etc. Since the assignment involves researching the programmer's methods, ideal projects would be one's where you are able to view the actual code. So, either open source software projects or web-based javascript projects would be ideal.
 
-Watch the following videos, doing the examples in p5js as you go along. The videos are described using Processing but the concept of Vectors are universal.
-If you need to see the p5js example sketches they are [here](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/tree/master/chp01_vectors).
+After reading Chapter 1, start work on... 
 
-* 1.1 [Vectors (The Nature of Code)](https://vimeo.com/58734251)
-* 1.2 [1.2 PVector class (The Nature of Code)](https://www.youtube.com/watch?v=7nTLzLf7jUg) Remember we are using p5js. So you will be using the [p5js pVector class.](http://p5js.org/reference/#/p5.Vector). Note that you cannot use the word 'location' as Daniel Shiffman does here and in the book as it is a reserved word of Javascript and thus cannot be used as a variable name. Try something else.
-* [1.3 Vector Math (The Nature of Code)](https://www.youtube.com/watch?v=s6b1_3bNCxk)
-* [1.4 Vector Math II (Nature of Code)](https://www.youtube.com/watch?v=uHusbFmq-4I)
-* [1.5 Acceleration (The Nature of Code)](https://www.youtube.com/watch?v=TQ_WZU5s_VA&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc&index=5)
-
-
-**Do exercises 1.1 and 1.2 [from the book](https://natureofcode.com/book/chapter-1-vectors/) in p5js (you can do 1.3 if you are excited and familiar with 3D), 1.4 and 1.5.**
-
-* Write a Discovery and Research post. Find 2 or 3 examples of programs that involve artificial intelligence and/or artificial life and research how these elements are handled in the programs. Examples can be things like life simulations, flocking algorithms, robot simulations, etc. Since the assignment involves researching the programmer's methods, ideal projects would be one's where you are able to view the actual code. So, either open source software projects or web-based javascript projects would be ideal.
-
-* Begin The Ecosystem Project. After reading Chapter 1. The Ecosystem Project
+### The Ecosystem Project
 
 > As mentioned in the preface, one way to use this book is to build a single project over the course of reading it, incorporating elements from each chapter one step at a time. We’ll follow the development of an example project throughout this book—a simulation of an ecosystem. Imagine a population of computational creatures swimming around a digital pond, interacting with each other according to various rules.
 
-> Step 1 Exercise:
+Step 1 Exercise:
 
 > Develop a set of rules for simulating the real-world behavior of a creature, such as a nervous fly, swimming fish, hopping bunny, slithering snake, etc. Can you control the object’s motion by only manipulating the acceleration? Try to give the creature a personality through its behavior (rather than through its visual design).
